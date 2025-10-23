@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Paradise Resort | Hosale</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="#">ParadiseResort.</a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+                <i class="ri-menu-3-line"></i>
+            </div>
+        </div>
+
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#service">SERVICES</a></li>
+            <li><a href="#property">VILLAS & ROOMS</a></li>
+            <li><a href="#blog">BLOGS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <header id="header">
+        <div class="header__image"></div>
+        <div class="header__content">
+            <h1>Escape to Luxury and Serenity</h1>
+        </div>
+        <form action="/">
+            <div class="input__group">
+                <label for="location">Destination</label>
+                <input type="text" placeholder="Destination" />
+            </div>
+            <div class="input__group">
+                <label for="propertyType">Villa or Room Type</label>
+                <input type="text" placeholder="Villa or Room Type" />
+            </div>
+            <div class="input__group">
+                <label for="price">Max Budget</label>
+                <input type="text" placeholder="Max Budget" />
+            </div>
+        </form>
+    </header>
+
+    <section class="service">
+        <div class="section__container service__container" id="service">
+            <h2 class="section__header">Our Services</h2>
+            <div class="service__grid">
+                <div class="service__card">
+                    <img src="image/service-1.png" alt="service" />
+                    <h4>Luxury Villas</h4>
+                    <p>
+                        Experience ultimate comfort in our fully equipped villas with private pools, breathtaking views, and modern amenities for a perfect getaway.
+                    </p>
+                </div>
+                <div class="service__card">
+                    <img src="image/service-2.png" alt="service" />
+                    <h4>Personalized Concierge</h4>
+                    <p>
+                        Our 24/7 concierge team ensures every detail of your stay is flawless—from dining reservations to adventure bookings—tailored just for you.
+                    </p>
+                </div>
+                <div class="service__card">
+                    <img src="image/service-3.png" alt="service" />
+                    <h4>Exclusive Experiences</h4>
+                    <p>
+                        Indulge in curated experiences such as spa treatments, yacht tours, gourmet dining, and cultural excursions that make your stay unforgettable.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience">
+        <div class="experience__image"></div>
+        <div class="experience__content">
+            <h2 class="section__header">Unforgettable<br />Vacation Experience</h2>
+            <p>
+                At Paradise Resort, we provide a luxurious and serene environment for relaxation and adventure. From private villas to gourmet dining, every detail is crafted to ensure your stay is magical and memorable.
+            </p>
+            <div class="experience__btn">
+                <button class="btn">VIEW VILLAS</button>
+            </div>
+        </div>
+        <div class="experience__stats">
+            <div>
+                <h4 data-target="100">0+</h4>
+                <p>Luxury Villas</p>
+            </div>
+            <div>
+                <h4 data-target="50">0+</h4>
+                <p>Awards Won</p>
+            </div>
+            <div>
+                <h4 data-target="20">0+</h4>
+                <p>Years of Excellence</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section__container property__container" id="property">
+        <h2 class="section__header">Our Villas & Rooms</h2>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="property__card">
+                        <img src="image/port.jpeg" alt="villa" />
+                        <div class="property__details">
+                            <div class="property__details__header">
+                                <h4>Oceanview Villa</h4>
+                                <h5>$1,250/night</h5>
+                            </div>
+                            <div class="property__amenities">
+                                <div>
+                                    <span><i class="ri-hotel-bed-line"></i></span> 5 Beds
+                                </div>
+                                <div>
+                                    <span><i class="ri-showers-line"></i></span> 4 Baths
+                                </div>
+                                <div>
+                                    <span><i class="ri-dashboard-fill"></i></span> 4000ft²
+                                </div>
+                            </div>
+                            <div class="property__location">
+                                <span><i class="ri-map-pin-5-line"></i></span> 784 Coastal Drive, Maldives
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="property__card">
+                        <img src="image/port.jpeg" alt="villa" />
+                        <div class="property__details">
+                            <div class="property__details__header">
+                                <h4>Tropical Garden Retreat</h4>
+                                <h5>$850/night</h5>
+                            </div>
+                            <div class="property__amenities">
+                                <div>
+                                    <span><i class="ri-hotel-bed-line"></i></span> 4 Beds
+                                </div>
+                                <div>
+                                    <span><i class="ri-showers-line"></i></span> 3 Baths
+                                </div>
+                                <div>
+                                    <span><i class="ri-dashboard-fill"></i></span> 3500ft²
+                                </div>
+                            </div>
+                            <div class="property__location">
+                                <span><i class="ri-map-pin-5-line"></i></span> 4521 Palm Avenue, Bali
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="property__card">
+                        <img src="image/port.jpeg" alt="villa" />
+                        <div class="property__details">
+                            <div class="property__details__header">
+                                <h4>Sunset Beach House</h4>
+                                <h5>$1,500/night</h5>
+                            </div>
+                            <div class="property__amenities">
+                                <div>
+                                    <span><i class="ri-hotel-bed-line"></i></span> 6 Beds
+                                </div>
+                                <div>
+                                    <span><i class="ri-showers-line"></i></span> 5 Baths
+                                </div>
+                                <div>
+                                    <span><i class="ri-dashboard-fill"></i></span> 4200ft²
+                                </div>
+                            </div>
+                            <div class="property__location">
+                                <span><i class="ri-map-pin-5-line"></i></span> 2201 Sunset Boulevard, Hawaii
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="property__card">
+                        <img src="image/port.jpeg" alt="villa" />
+                        <div class="property__details">
+                            <div class="property__details__header">
+                                <h4>Mountain View Lodge</h4>
+                                <h5>$900/night</h5>
+                            </div>
+                            <div class="property__amenities">
+                                <div>
+                                    <span><i class="ri-hotel-bed-line"></i></span> 4 Beds
+                                </div>
+                                <div>
+                                    <span><i class="ri-showers-line"></i></span> 4 Baths
+                                </div>
+                                <div>
+                                    <span><i class="ri-dashboard-fill"></i></span> 3800ft²
+                                </div>
+                            </div>
+                            <div class="property__location">
+                                <span><i class="ri-map-pin-5-line"></i></span> 980 Alpine Street, Switzerland
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="property__card">
+                        <img src="image/port.jpeg" alt="villa" />
+                        <div class="property__details">
+                            <div class="property__details__header">
+                                <h4>Royal Palace Suite</h4>
+                                <h5>$2,800/night</h5>
+                            </div>
+                            <div class="property__amenities">
+                                <div>
+                                    <span><i class="ri-hotel-bed-line"></i></span> 5 Beds
+                                </div>
+                                <div>
+                                    <span><i class="ri-showers-line"></i></span> 6 Baths
+                                </div>
+                                <div>
+                                    <span><i class="ri-dashboard-fill"></i></span> 5000ft²
+                                </div>
+                            </div>
+                            <div class="property__location">
+                                <span><i class="ri-map-pin-5-line"></i></span> 1789 Kingsway, Paris
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe" id="contact">
+        <h2 class="section__header">Join<br />Our Newsletter</h2>
+        <form action="/">
+            <input type="text" placeholder="Enter your email" />
+            <button class="btn">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <div class="footer__logo">
+                    <a href="#">ParadiseResort.</a>
+                </div>
+                <p>
+                    Paradise Resort offers luxury accommodations, unforgettable experiences, and personalized service to make your vacation truly remarkable.
+                </p>
+                <ul class="footer__socials">
+                    <li>
+                        <a href="#"><i class="ri-facebook-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-tiktok-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-youtube-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-whatsapp-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-telegram-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-snapchat-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-pinterest-fill"></i></a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>OUR RESORT</h4>
+                <ul class="footer__links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Our Villas</a></li>
+                    <li><a href="#">Experiences</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>SUPPORT</h4>
+                <ul class="footer__links">
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Villa Listings</a></li>
+                    <li><a href="#">Booking Guide</a></li>
+                    <li><a href="#">Policies</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>FEATURED VILLA</h4>
+                <div class="footer__property__detail">
+                    <!-- <img src="image/port (5).jpeg" alt="footer" /> -->
+                    <div>
+                        <h5>Sunset Paradise</h5>
+                        <p>1256 Ocean Drive, Maldives</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bar">
+            Copyright © 2025 By Dev.Nada
+        </div>
+    </footer>
+    <button id="to-top" class="to-top">↑</button>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
